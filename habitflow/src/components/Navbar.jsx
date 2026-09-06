@@ -10,6 +10,8 @@ function Navbar() {
   const today = todayStr();
   const doneToday = habits.filter((h) => h.history.includes(today)).length;
 
+
+  
   return (
     <nav className="navbar">
       <div className="navbar-brand">
