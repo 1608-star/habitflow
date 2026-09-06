@@ -10,7 +10,7 @@ function Home() {
   const [search, setSearch] = useState("");
   const [time, setTime] = useState(new Date().toLocaleTimeString());
 
-  // Week 4 - useEffect: Live clock
+ //- useEffect: Live clock
   useEffect(() => {
     const timer = setInterval(() => {
       setTime(new Date().toLocaleTimeString());
