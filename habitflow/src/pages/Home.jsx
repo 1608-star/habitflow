@@ -1,6 +1,4 @@
-// Week 3 - useState
-// Week 4 - useEffect
-// Week 6 - useMemo for filtering
+
 import { useState, useEffect, useMemo } from "react";
 import { useHabits } from "../context/HabitContext";
 import HabitList from "../components/HabitList";
