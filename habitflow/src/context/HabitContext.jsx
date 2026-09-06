@@ -12,7 +12,8 @@ function normalize(habit) {
   return { ...habit, id: habit._id ?? habit.id };
 }
 
-// Reducer function - Week 6 Advanced Hooks
+
+
 function habitReducer(state, action) {
   switch (action.type) {
     case "LOAD":
