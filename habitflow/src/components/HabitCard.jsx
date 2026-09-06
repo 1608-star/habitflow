@@ -12,6 +12,8 @@ const categoryColor = {
   Other: "#f39c12",
 };
 
+
+
 function HabitCard({ habit }) {
   const { dispatch } = useHabits();
   const today = todayStr();
