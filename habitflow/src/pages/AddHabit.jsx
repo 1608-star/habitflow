@@ -7,7 +7,7 @@ function AddHabit() {
   const { dispatch } = useHabits();
   const navigate = useNavigate();
 
-  // Week 3 - useState for form fields
+  // - useState for form fields
   const [formData, setFormData] = useState({
     name: "",
     category: "Health",
