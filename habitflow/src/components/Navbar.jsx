@@ -11,7 +11,7 @@ function Navbar() {
   const doneToday = habits.filter((h) => h.history.includes(today)).length;
 
 
-  
+
   return (
     <nav className="navbar">
       <div className="navbar-brand">
@@ -32,6 +32,7 @@ function Navbar() {
         <li>
           <Link to="/stats" className={location.pathname === "/stats" ? "active" : ""}>
             📊 Stats
+            
           </Link>
         </li>
         <li>
