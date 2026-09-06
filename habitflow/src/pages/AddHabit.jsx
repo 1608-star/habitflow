@@ -1,5 +1,4 @@
-// Week 3 - useState for form
-// Week 5 - useNavigate from React Router
+
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useHabits } from "../context/HabitContext";
