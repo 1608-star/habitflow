@@ -142,6 +142,8 @@ export function HabitProvider({ children }) {
   );
 }
 
+
+
 // Custom hook
 export function useHabits() {
   return useContext(HabitContext);
