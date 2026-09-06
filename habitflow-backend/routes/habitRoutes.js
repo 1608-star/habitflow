@@ -1,5 +1,3 @@
-// Week 8 - Express.js Routing
-// Week 10 - REST API Development
 
 const express = require('express');
 const router = express.Router();
